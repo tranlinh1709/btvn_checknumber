@@ -8,9 +8,8 @@ import org.omg.CORBA.PUBLIC_MEMBER;
 
 public class MyNumber1 {
 public int number;
-public int MyNumber (int n){
+public MyNumber1(int n) {
 	this.number = n;
-	return n;
 }
 	//Trả ra danh sách tất cả các số chẵn nhỏ hơn number
 public ArrayList Get_Sochan(){
